@@ -1,0 +1,1 @@
+node ./node_modules/caxa/build/index.mjs -i . -o ConfigCreator.exe --identifier ConfigCreator -e BPLoader.pak -e build_exe.bat -e run.bat -e *.pak -e Configs -e .git* -e ConfigCreator.exe -- {{caxa}}/node_modules/.bin/node {{caxa}}/ConfigCreator.js {{exec}}
